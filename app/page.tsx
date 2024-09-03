@@ -171,13 +171,16 @@ export default function Component() {
                 ))}
               </div>
             )}
-            <h2 className="text-white text-3xl mb-6 font-mono">{messages[currentLanguage].title}</h2>
-            <p className="text-white mb-4 leading-relaxed">
-              {messages[currentLanguage].content1}
-            </p>
-            <p className="text-white leading-relaxed">
-              {messages[currentLanguage].content2}
-            </p>
+           <h2 className="text-white text-3xl mb-6 font-mono">
+  {messages[currentLanguage as keyof typeof messages].title}
+</h2>
+<p className="text-white mb-4 leading-relaxed">
+  {messages[currentLanguage as keyof typeof messages].content1}
+</p>
+<p className="text-white leading-relaxed">
+  {messages[currentLanguage as keyof typeof messages].content2}
+</p>
+
           </div>
         </div>
       )}
