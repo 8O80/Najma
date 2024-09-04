@@ -76,7 +76,7 @@ export default function Component() {
             <CreditCard className="ml-2 relative z-10" size={18} />
             <div className="absolute inset-0 bg-gradient-to-r from-gray-600/50 to-gray-800/50 rounded-full blur-md transition-all duration-300 group-hover:opacity-75"></div>
           </a>
-          <a href="https://panel.najma.cloud.com" target="_blank" rel="noopener noreferrer" className="modern-button group">
+          <a href="https://panel.najma.cloud" target="_blank" rel="noopener noreferrer" className="modern-button group">
             <span className="relative z-10">Panel</span>
             <LayoutDashboard className="ml-2 relative z-10" size={18} />
             <div className="absolute inset-0 bg-gradient-to-r from-gray-600/50 to-gray-800/50 rounded-full blur-md transition-all duration-300 group-hover:opacity-75"></div>
