@@ -53,9 +53,10 @@ export default function Component() {
     }
   ];
 
-  const handleSelectPlan = (plan) => {
+  const handleSelectPlan = (plan: string) => {
     router.push(`/plans/${plan}`);
   };
+  
 
   return (
     <div className="min-h-screen w-full overflow-hidden relative flex flex-col items-center justify-between bg-gradient-to-br from-gray-900 via-black to-gray-800">
