@@ -54,16 +54,17 @@ export default function ProPlan() {
 
       {/* Main Content */}
       <main className="z-10 flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-6 max-w-5xl mx-auto bg-gray-800 bg-opacity-50 rounded-xl shadow-lg p-6 my-20">
-        {/* Image Section */}
-        <div className="w-full md:w-1/2 flex items-center justify-center">
-          <Image
-            src="/NJ1.png"
-            alt="Najma Logo"
-            width={300}
-            height={300}
-            className="rounded-lg shadow-md"
-          />
-        </div>
+{/* Image Section */}
+<div className="w-full md:w-1/2 flex items-center justify-center">
+  <img
+    src="/NJ1.png"
+    alt="Najma Logo"
+    width="300"
+    height="300"
+    className="rounded-lg shadow-md"
+  />
+</div>
+
 
         {/* Info Section */}
         <div className="w-full md:w-1/2 flex flex-col items-start space-y-4">
@@ -90,8 +91,8 @@ export default function ProPlan() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Company Info */}
           <div className="flex items-center space-x-4">
-            <Image src="/Servers.png" alt="Najma Logo" width={100} height={100} />
-            <span className="text-gray-200 font-bold text-lg">Najma</span>
+          <img src="/Servers.png" alt="Najma Logo" width="100" height="100" />
+          <span className="text-gray-200 font-bold text-lg">Najma</span>
           </div>
 
           {/* Footer Links */}
