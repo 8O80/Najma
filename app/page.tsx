@@ -13,7 +13,7 @@ export default function Component() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showLanguagePopup, setShowLanguagePopup] = useState(false);
   const [language, setLanguage] = useState('en');
-  const [openFAQ, setOpenFAQ] = useState(null);
+  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
   const router = useRouter();
   const t = useTranslations(language);
 
