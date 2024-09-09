@@ -57,7 +57,7 @@ export default function ProPlan() {
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex items-center justify-center">
           <Image
-            src="/Servers.png"
+            src="/NJ1.png"
             alt="Najma Logo"
             width={300}
             height={300}
@@ -90,7 +90,7 @@ export default function ProPlan() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Company Info */}
           <div className="flex items-center space-x-4">
-            <Image src="/NJ1.png" alt="Najma Logo" width={50} height={50} />
+            <Image src="/Servers.png" alt="Najma Logo" width={50} height={50} />
             <span className="text-gray-200 font-bold text-lg">Najma</span>
           </div>
 
