@@ -28,12 +28,12 @@ export default function Component() {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleLanguageChange = (lang) => {
+  const handleLanguageChange = (lang: string) => {
     setLanguage(lang);
     setShowLanguagePopup(false);
     localStorage.setItem('preferredLanguage', lang);
   };
-
+  
   const faqData = [
     {
       question: "What services does Najma offer?",
