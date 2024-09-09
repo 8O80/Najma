@@ -155,22 +155,23 @@ export default function Component() {
         <section className="w-full max-w-6xl px-4 py-12">
           <h2 className="text-3xl font-bold text-center text-gray-200 mb-10">{t.whyChooseUs}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              { icon: FaPalette, title: t.creativeDesigns, description: "Innovative and modern design solutions to make your brand stand out." },
-              { icon: FaRocket, title: t.fastDelivery, description: "We ensure timely delivery of all projects with the highest quality." },
-              { icon: FaLightbulb, title: t.innovativeIdeas, description: "Bringing fresh and unique ideas to help your business grow." },
-              { icon: FaUserFriends, title: t.clientCollaboration, description: "Working closely with clients to bring their vision to life." },
-            ].map((feature, index) => (
-              <div key={index} className="flex items-center p-6 bg-gray-800 bg-opacity-50 rounded-xl backdrop-blur-md">
-                <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-full mr-4">
-                  <feature.icon size={24} className="text-gray-200" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-200">{feature.title}</h3>
-                  <p className="text-gray-400">{feature.description}</p>
-                </div>
-              </div>
-            ))}
+          {[
+   { icon: <FaPalette />, title: t.creativeDesigns, description: "Innovative and modern design solutions to make your brand stand out." },
+   { icon: <FaRocket />, title: t.fastDelivery, description: "We ensure timely delivery of all projects with the highest quality." },
+   { icon: <FaLightbulb />, title: t.innovativeIdeas, description: "Bringing fresh and unique ideas to help your business grow." },
+   { icon: <FaUserFriends />, title: t.clientCollaboration, description: "Working closely with clients to bring their vision to life." },
+ ].map((feature, index) => (
+   <div key={index} className="flex items-center p-6 bg-gray-800 bg-opacity-50 rounded-xl backdrop-blur-md">
+     <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-full mr-4">
+       {feature.icon} {/* Fixed icon usage */}
+     </div>
+     <div>
+       <h3 className="text-xl font-semibold text-gray-200">{feature.title}</h3>
+       <p className="text-gray-400">{feature.description}</p>
+     </div>
+   </div>
+ ))}
+
           </div>
         </section>
 
