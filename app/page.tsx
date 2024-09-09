@@ -235,7 +235,7 @@ export default function Component() {
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Company Info */}
           <div className="flex items-center space-x-4">
-          <Image src="/NJ1.png" alt="Najma Logo" width={50} height={50} />
+<img src="/NJ1.png" alt="Najma Logo" width="50" height="50" />
           <span className="text-gray-200 font-bold text-lg">Najma</span>
           </div>
           
