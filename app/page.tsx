@@ -133,7 +133,8 @@ export default function Component() {
         <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-8 px-4 sm:px-0">
           {/* Logo */}
           <div className="logo-container">
-            <Image src="/NJ1.png" alt="Najma Logo" width={150} height={150} />
+            <img src="/NJ1.png" alt="Najma Logo" width="150" height="150" />
+
           </div>
 
           {/* Login Button */}
