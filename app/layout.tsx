@@ -14,7 +14,7 @@ export const metadata = {
     siteName: 'Najma Host',
     images: [
       {
-        url: '/thumb.png', // Relative path; will be resolved to 'https://najma.cloud/thumb.png'
+        url: '/67133283063.jpg', // Relative path; will be resolved to 'https://najma.cloud/thumb.png'
         width: 1200,
         height: 630,
         alt: 'Najma Host Thumbnail',
